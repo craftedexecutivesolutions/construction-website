@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import { Button } from "@/components/ui/button";
 import CTASection from "@/components/CTASection";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Building, Home, Landmark } from "lucide-react";
 import { Link } from "wouter";
 import constructionSiteImage from "@assets/generated_images/Construction_site_overview_tropical_2ba6d7f9.png";
 import commercialImage from "@assets/generated_images/Commercial_building_tropical_palms_7d7d8ac8.png";
@@ -36,7 +36,7 @@ export default function Services() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="order-2 lg:order-1">
               <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-4">
-                <span className="text-2xl">🏢</span>
+                <Building className="h-5 w-5 text-primary" />
                 <span className="font-heading font-bold text-primary">Commercial Construction</span>
               </div>
               <h2 className="font-heading font-bold text-3xl mb-4">
@@ -99,7 +99,7 @@ export default function Services() {
             </div>
             <div>
               <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-4">
-                <span className="text-2xl">🏠</span>
+                <Home className="h-5 w-5 text-primary" />
                 <span className="font-heading font-bold text-primary">Residential Construction</span>
               </div>
               <h2 className="font-heading font-bold text-3xl mb-4">
@@ -148,7 +148,7 @@ export default function Services() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="order-2 lg:order-1">
               <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-4">
-                <span className="text-2xl">🏛️</span>
+                <Landmark className="h-5 w-5 text-primary" />
                 <span className="font-heading font-bold text-primary">Government Contracts</span>
               </div>
               <h2 className="font-heading font-bold text-3xl mb-4">
