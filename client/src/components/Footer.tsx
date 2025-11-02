@@ -91,6 +91,9 @@ export default function Footer() {
               © 2024 Pacific Stone Builders | An Equal Opportunity Employer
             </div>
           </div>
+          <div className="text-center mt-4 text-xs text-white/60">
+            Powered by Crafted Executive Solutions - A GovHive Alliance, LLC company
+          </div>
         </div>
       </div>
     </footer>

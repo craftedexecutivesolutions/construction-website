@@ -8,6 +8,7 @@ import teamHeroImage from "@assets/generated_images/Team_photo_ocean_background_
 import constructionSiteImage from "@assets/generated_images/Construction_site_overview_tropical_2ba6d7f9.png";
 import teamMember1 from "@assets/generated_images/Asian_male_contractor_headshot_63ae8f21.png";
 import teamMember2 from "@assets/generated_images/Chamorro_female_professional_headshot_40c4b00b.png";
+import teamMember3 from "@assets/generated_images/Filipino_male_engineer_headshot_1b4a0ba7.png";
 import communityImage from "@assets/generated_images/Beach_cleanup_volunteers_tropical_e4ef4ae2.png";
 
 export default function About() {
@@ -105,7 +106,7 @@ export default function About() {
               bio="Maria brings 20 years of project management expertise and ensures every project runs smoothly from start to finish. She oversees all commercial and residential operations."
             />
             <TeamMemberCard
-              image={teamMember1}
+              image={teamMember3}
               name="Roberto M. Cruz"
               title="Chief Engineer"
               bio="Roberto specializes in typhoon-resistant design and has led engineering teams on major government projects across the Northern Marianas for over 15 years."
